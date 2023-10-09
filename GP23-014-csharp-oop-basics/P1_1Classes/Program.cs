@@ -5,17 +5,3 @@ Car car = new Car();
 Console.WriteLine(person);
 Console.WriteLine(animal);
 Console.WriteLine(car);
-
-
-public class Person
-{
-    
-}
-
-public class Animal
-{
-}
-
-public class Car
-{
-}

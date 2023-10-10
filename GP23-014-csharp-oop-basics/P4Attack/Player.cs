@@ -4,7 +4,6 @@ public class Player
 
     public void Attack(Player target)
     {
-        target = new Player();
-        
+        target -= Damage;
     }
 }

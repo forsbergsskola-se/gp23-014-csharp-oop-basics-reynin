@@ -1,8 +1,8 @@
 ﻿Item [] inventory = new Item[3];
 
-for (int i = 0; i < 3; i++)
+for (int itemIndex = 0; itemIndex < inventory.Length; itemIndex++)
 {
-    inventory[i] = new Item();
-    inventory[i].goldValue = 100 + i * 100;
-    Console.WriteLine(inventory[i].goldValue);
+    inventory[itemIndex] = new Item();
+    inventory[itemIndex].goldValue = 100 + itemIndex * 100;
+    Console.WriteLine(inventory[itemIndex].goldValue);
 }

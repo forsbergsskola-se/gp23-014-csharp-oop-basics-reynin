@@ -3,10 +3,9 @@ public class Player
     public int Level;
     public int Exp;
 
-    public void GrantExperience()
+    public void GrantExperience(int expPlus)
     {
-        Console.WriteLine("How much Exp. do you wish to gain?");
-        this.Exp += int.Parse(Console.ReadLine());
+        this.Exp += expPlus;
         while (this.Exp >= 100)
         {
             Level++;

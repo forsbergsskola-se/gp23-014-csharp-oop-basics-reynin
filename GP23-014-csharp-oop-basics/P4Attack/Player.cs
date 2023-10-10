@@ -2,8 +2,9 @@ public class Player
 {
     public int Damage;
 
-    public void Attack()
+    public void Attack(Player target)
     {
-        Player target;
+        target = new Player();
+        
     }
 }

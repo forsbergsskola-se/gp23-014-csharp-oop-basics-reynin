@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3LevelUp", "P3LevelUp\P3Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_1Replacing Goal", "P4_1Replacing Goal\P4_1Replacing Goal.csproj", "{E8056234-1F82-4844-9437-06A3D1E384BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Attack", "P4Attack\P4Attack.csproj", "{AFA06D94-B989-445C-B731-6992FD90D136}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{E8056234-1F82-4844-9437-06A3D1E384BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8056234-1F82-4844-9437-06A3D1E384BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8056234-1F82-4844-9437-06A3D1E384BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA06D94-B989-445C-B731-6992FD90D136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA06D94-B989-445C-B731-6992FD90D136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA06D94-B989-445C-B731-6992FD90D136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA06D94-B989-445C-B731-6992FD90D136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

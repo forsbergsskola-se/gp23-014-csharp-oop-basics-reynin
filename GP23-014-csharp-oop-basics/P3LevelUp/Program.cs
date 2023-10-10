@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿Player player = new Player();
 
-Console.WriteLine("Hello, World!");
+while (true)
+{
+    player.GrantExperience();
+    
+    Console.WriteLine("Do you want to keep going? [yes] / [no]");
+    string answer = Console.ReadLine();
+    if (answer == "no")
+    {
+        break;
+    }
+}

@@ -1,13 +1,8 @@
-﻿Item [] bag = new Item[3];
+﻿Item [] inventory = new Item[3];
 
-for (int i = 0; i < 3; i++)
+for (int itemIndex = 0; itemIndex < inventory.Length; itemIndex++)
 {
-    bag[i].goldValue = 100 + i * 100;
-    Console.WriteLine(bag[i].goldValue);
-}
-
-
-public class Item
-{
-    public int goldValue;
+    inventory[itemIndex] = new Item();
+    inventory[itemIndex].goldValue = 100 + itemIndex * 100;
+    Console.WriteLine(inventory[itemIndex].goldValue);
 }

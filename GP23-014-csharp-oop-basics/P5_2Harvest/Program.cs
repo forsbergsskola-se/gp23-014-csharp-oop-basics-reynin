@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿Plant plant = new Plant();
 
-Console.WriteLine("Hello, World!");
+plant.CanGrow();

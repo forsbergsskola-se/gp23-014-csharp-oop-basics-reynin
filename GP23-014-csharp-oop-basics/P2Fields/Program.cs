@@ -14,4 +14,3 @@ Console.WriteLine($"Gold: {player.Gold}\nStone: {player.Stone}\nWood: {player.Wo
 Console.WriteLine(player.VIP ? "VIP Subscriber" : "VIP disabled");
 Console.WriteLine(player.PvP ? "PvP Able" : "PvP disabled");
 Console.WriteLine($"Player information: {player.Name}\nE-Mail: {player.email}");
-

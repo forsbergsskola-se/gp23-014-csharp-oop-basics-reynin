@@ -65,7 +65,7 @@ public class Person
     }
 }
 */
-
+/*
 House redHouse = new House();
 House blueHouse = new House();
 Console.WriteLine("Doors Open?");
@@ -92,4 +92,4 @@ public class House
     {
         this.IsDoorOpen = false;
     }
-}
+}*/

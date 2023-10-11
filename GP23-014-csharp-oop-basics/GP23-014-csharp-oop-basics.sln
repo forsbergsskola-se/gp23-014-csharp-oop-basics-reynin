@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Attack", "P4Attack\P4Atta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise", "Exercise\Exercise.csproj", "{E05FE306-73C5-4290-BB74-0E77E826FB2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_1Father", "P5_1Father\P5_1Father.csproj", "{8EA2672D-1F81-48AA-8589-F46AA45909C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{E05FE306-73C5-4290-BB74-0E77E826FB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E05FE306-73C5-4290-BB74-0E77E826FB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E05FE306-73C5-4290-BB74-0E77E826FB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA2672D-1F81-48AA-8589-F46AA45909C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA2672D-1F81-48AA-8589-F46AA45909C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA2672D-1F81-48AA-8589-F46AA45909C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA2672D-1F81-48AA-8589-F46AA45909C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

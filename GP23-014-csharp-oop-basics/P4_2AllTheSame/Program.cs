@@ -1,10 +1,8 @@
 ﻿ScoreCounter one = new ScoreCounter();
-ScoreCounter two = new ScoreCounter();
-ScoreCounter three = new ScoreCounter();
-ScoreCounter four = new ScoreCounter();
 
-one = two;
-three = four;
+ScoreCounter two = one;
+ScoreCounter three = two;
+ScoreCounter four = three;
 
 one.IncreaseScore();
 two.IncreaseScore();

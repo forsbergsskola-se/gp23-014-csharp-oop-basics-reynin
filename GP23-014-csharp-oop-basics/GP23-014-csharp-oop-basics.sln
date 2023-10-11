@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_3PassingReferences", "P4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5Classified", "P5Classified\P5Classified.csproj", "{437E10A5-2C56-4CC2-BC92-D8AE656A0A33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{8684809C-0E7F-4798-B4BF-48795F54C851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{437E10A5-2C56-4CC2-BC92-D8AE656A0A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{437E10A5-2C56-4CC2-BC92-D8AE656A0A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{437E10A5-2C56-4CC2-BC92-D8AE656A0A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8684809C-0E7F-4798-B4BF-48795F54C851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8684809C-0E7F-4798-B4BF-48795F54C851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8684809C-0E7F-4798-B4BF-48795F54C851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8684809C-0E7F-4798-B4BF-48795F54C851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

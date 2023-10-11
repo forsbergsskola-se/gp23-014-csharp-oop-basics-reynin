@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿void Sell(House x)
+{
+    x.Owner = "Alex";
+}
 
-Console.WriteLine("Hello, World!");
+House house = new House();
+
+house.PrintOwner();
+Sell(house);
+house.PrintOwner();

@@ -48,12 +48,6 @@ public class Pear : Food
     public int valueHP = 10;
 }
 
-
-
-
-
-
-
 public class Weapon : Player
 {
     public bool isWeapon = true;

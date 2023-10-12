@@ -6,15 +6,11 @@ Sword sword = new Sword();
 
 defender.Defense = shield; // Defender equip shield
 
-attacker.Attack(defender);
-defender.GetHit(attacker.Offense); // attacker.Offense == null
+attacker.Attack(defender); // attacker.Offense == null
 
 Console.WriteLine("Equipping Sword...");
-attacker.Offense = sword;
+attacker.Offense = sword; // Attacker now has a sword
 
-attacker.Attack(defender);
-defender.GetHit(sword);
-defender.Defense = null;
+attacker.Attack(defender); // Defenders shield breaks
 
-attacker.Attack(defender);
-defender.GetHit(sword);
+attacker.Attack(defender); // Knight is wounded

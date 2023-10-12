@@ -3,13 +3,13 @@ public class Knight
     public Shield Defense;
     public Sword Offense;
     
-    public void GetHit(Sword x)
+    public void GetHit(Sword target)
     {
-        if (x == null)
+        if (target == null)
         {
             Console.WriteLine("Knights Shield fends off the strike.");
         }
-        else if (x != null && Defense != null)
+        else if (target != null && this.Defense != null)
         {
             Console.WriteLine("Knights Shield was pierced by the Sword.");
             this.Defense = null;
@@ -21,15 +21,17 @@ public class Knight
         
     }
 
-    public void Attack(Knight y)
+    public void Attack(Knight target)
     {
         if (Offense == null)
         {
             Console.WriteLine("Knight attacks Knight with Bare Hands.");
         }
-        else
+        else if (target.Defense != null && this.Offense != null)
         {
             Console.WriteLine("Knight attacks Knight with a Sword.");
         }
+
+        target.GetHit(this.Offense);
     }
 }

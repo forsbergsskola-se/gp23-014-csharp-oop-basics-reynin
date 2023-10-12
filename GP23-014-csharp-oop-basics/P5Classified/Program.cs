@@ -1,23 +1,30 @@
-﻿public class Food
+﻿using System.Threading.Channels;
+
+public class AblePick
+{
+    public bool IsAblePick = true;
+}
+
+public class Food : AblePick
 {
     public bool IsEdible = true;
 }
 
 public class Bread : Food
 {
-    
+    public string bread = "Bread";
 }
 public class Banana : Food
 {
-    
+    public string banana = "Banana";
 }
 public class Apple : Food
 {
-    
+    public string apple = "Apple";
 }
 public class Pear : Food
 {
-    
+    public string pear = "pear";
 }
 
 
@@ -47,28 +54,32 @@ public class Spear : Weapon
     
 }
 
+public class Alive
+{
+    public bool IsAlive;
+}
 
 public class Tree
 {
     
 }
-public class Gorilla
+public class Gorilla : Alive
 {
     
 }
-public class Chimpanzee
+public class Chimpanzee : Alive
 {
     
 }
-public class Sparrow
+public class Sparrow : Alive
 {
     
 }
-public class Pigeon
+public class Pigeon : Alive
 {
     
 }
-public class Hawk
+public class Hawk : Alive
 {
     
 }

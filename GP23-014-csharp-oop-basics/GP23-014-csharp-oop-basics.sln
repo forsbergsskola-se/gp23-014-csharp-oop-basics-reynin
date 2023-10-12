@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6Composition", "P6Composition\P6Composition.csproj", "{0445565A-0B06-4BC8-9BA1-97F837CB0BB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6_1WellHelloThere", "P6_1WellHelloThere\P6_1WellHelloThere.csproj", "{13068229-E587-49BA-BA60-BE846E59C5A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{0445565A-0B06-4BC8-9BA1-97F837CB0BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0445565A-0B06-4BC8-9BA1-97F837CB0BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0445565A-0B06-4BC8-9BA1-97F837CB0BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13068229-E587-49BA-BA60-BE846E59C5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13068229-E587-49BA-BA60-BE846E59C5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13068229-E587-49BA-BA60-BE846E59C5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13068229-E587-49BA-BA60-BE846E59C5A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

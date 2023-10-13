@@ -27,11 +27,10 @@ public class Knight
         {
             Console.WriteLine("Knight attacks Knight with Bare Hands.");
         }
-        else if (target.Defense != null && this.Offense != null)
+        else if (this.Offense != null)
         {
             Console.WriteLine("Knight attacks Knight with a Sword.");
         }
-
         target.GetHit(this.Offense);
     }
 }

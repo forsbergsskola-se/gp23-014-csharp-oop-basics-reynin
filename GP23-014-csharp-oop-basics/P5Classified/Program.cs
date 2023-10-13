@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic;
-
-Player player = new Player();
+﻿Player player = new Player();
 
 Bread bread = new Bread();
 Banana banana = new Banana();
@@ -67,7 +65,7 @@ public class Pencil : Weapon
     public int valueStrength = 1;
 
 }
-public class Shield : Weapon // Add defence points instead?
+public class Shield : Weapon
 {
     public int valueStrength = 5;
 
@@ -80,7 +78,7 @@ public class Spear : Weapon
 
 public class Object
 {
-    public bool Interactable;
+    
 }
 
 
@@ -111,5 +109,4 @@ public class Pigeon : Object
 public class Hawk : Object
 {
     public int health = 50;
-}
 }
